@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+/* navigation */
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+}
+
+.navigation{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bar_icon{
+    font-size: 32px;
+}
+
+/* Hero section */
+.hero{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tag{
+    background: #077519;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+}
