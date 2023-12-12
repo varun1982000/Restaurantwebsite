@@ -12,6 +12,19 @@ body{
     font-weight: 300;
 }
 
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: ease-in-out;
+    transform: scale(0.9);
+
+}
+
 /* navigation */
 
 nav{
@@ -54,4 +67,41 @@ nav{
     padding: 5px 10px;
     color: white;
     align-self: flex-start;
+}
+
+.hero_content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.explore_btn{
+    background: #ffc066;
+    align-self: flex-start;
+}
+
+/* features */
+.features{
+    padding: 100px;
+    display: flex;
+}
+
+@media(max-width: 789px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero_image{
+        display:flex;
+        justify-content: center;
+    }
+    .hero_image img{
+        width: 90%;
+    }
+    .hero_content{
+        gap:10px;
+        padding: 10px;
+    }
+    .hero_content h1{
+        font-size: 32px;
+    }
 }
